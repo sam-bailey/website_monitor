@@ -7,7 +7,9 @@ This is a set of python snippets useful for monitoring a website, for example an
 1. Install the requirements in `requirements.txt`.    
 2. (Optional) If you would like to send sms alerts using the `send_sms` helper function, set up a Twilio account, and follow the steps in `Twilio Setup` below.    
 3. Create a new py file inside `src` and import and subclass `BaseWebsiteMonitor()` from `base.py`.    
-4. In the subclass define the url of the website to be monitored, and the condition you are monitoring for. For an example of this, see `src/coolblue_xbox.py`.    
+4. In the subclass define the url of the website to be monitored, and the condition you are monitoring for. 
+5. Create a for loop using the `monitor` method. This will monitor your website. Inside the loop run any actions you want in response to the monitoring.   
+6. For a working example, see `src/coolblue_xbox.py`.      
 
 ## Twilio Setup
 
