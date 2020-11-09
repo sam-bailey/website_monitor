@@ -4,7 +4,7 @@ This is a set of python snippets useful for monitoring a website, for example an
 
 ## Quickstart
 
-1. Install the requirements in `requirements.txt`.    
+1. Install the requirements in `requirements.txt` using conda (see first line in `requirements.txt` for an example of how).    
 2. (Optional) If you would like to send sms alerts using the `send_sms` helper function, set up a Twilio account, and follow the steps in `Twilio Setup` below.    
 3. Create a new py file inside `src` and import and subclass `BaseWebsiteMonitor()` from `base.py`.    
 4. In the subclass define the url of the website to be monitored, and the condition you are monitoring for. 
